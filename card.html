@@ -7,7 +7,7 @@
 <body>
 	<div id="container">
 		<div id="header">
-			<p> "Jl. Panglima Polim 10 no 68A | Daily 6AM-10PM"</p>
+			<marquee id="scroll" behavior="scroll" direction="right" scrollamount="5">"Jl. Panglima Polim 10 no 68A | Daily 6AM-10PM"</marquee>
 		</div>
 
 		<div id="navbar">
@@ -18,15 +18,16 @@
 			    <div class="dropdown-content">
 			      <a href="menu.html">Menu</a>
 			      <a href="coffees.html">Coffees</a>
-			      <a href="dessert-and-cookies.html">Dessert and Cookies</a>
+			      <a href="dessertAndCookies.html">Dessert and Cookies</a>
     			</div>
     		</div>
 
-			<a href="about-us.html">ABOUT US</a>
+			<a href="aboutUs.html">ABOUT US</a>
 			<a href="card.html">CARD</a>
 		</div>
 
 		<div id="content">
+			<img src="assets/logoAVbucks.png">
 			<h1>REGISTER HERE</h1>
 			<h2>FOR GET THE LATEST INFORMATION AND<br>
 			PROMOTION OF OUR PRODUCTS</h2>
@@ -36,21 +37,24 @@
 			<h2>FILL THE FORM</h2>
 
 			<form id = "myForm" onsubmit="return validate()">
-	            Email <input type="text" value="" id=username>
+	            Email<br><input type="text" value="" id=email>
 	            <br> <br>
-	            Password <input type="password" id="password">
+	            Password<br><input type="password" id="password">
 	            <br> <br>
-	            Confirm Password <input type="text" id="email">
+	            Confirm Password<br><input type="password" id="confirmPassword">
 	            <br> <br>
-	            Address <textarea rows="3" cols="20"></textarea>
+	            Address<br><textarea id="address" rows="3" cols="20"></textarea>
 	            <br> <br>
-	            Gender <input type="radio" name="gender"> Male <input type="radio" name="gender"> Female
+	            Gender:<input type="radio" name="gender" id="male"> Male<input type="radio" name="gender" id="female"> Female
 	            <br> <br>
-	            Date of birth <input type="date" name="dob">
+	            Date of birth<br><input type="date" name="dob" id="dob">
 	            <br> <br>
-	            <input type="submit" value="Submit">
+	            <input type="submit" value="Submit" class="submit">
         	</form>
+        	<div id="err"> </div>
 		</div>
+
+		<script src="card.js"> </script>
 
 		<div id="footer">
 			<ul class="contact">
@@ -69,6 +73,5 @@
 		</div>
 
 	</div>
-	<script type="card.js"></script>
 </body>
 </html>
