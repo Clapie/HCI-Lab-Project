@@ -102,6 +102,7 @@
 
 #content h3{
     margin-left: 180px;
+    font-family: "Arial Narrow",sans-serif;
 }
 #content1 {
     width: 100%;
@@ -122,7 +123,7 @@
     width: 40%;
     display: inline-block;
     vertical-align: top;
-    font-family: arial;
+    font-family: "Arial Narrow",sans-serif;
 }
 
 #content1 #txt img {
@@ -147,4 +148,50 @@
 
 #footer .contact {
     margin-left: 2.5%;
+}
+
+@media screen and (max-width: 620px) {
+
+    #content h3{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 60px;
+    }
+   #content1{
+    height: 750px;
+   }
+
+   #content1 #txt img{
+    width: 35%;
+    margin-left: 35%;
+    text-align: center;
+   }
+
+   #content1 #img {
+        display: block;
+        width: 90%;
+    }
+
+    #content1 #img img{
+        width: 100%;
+    }
+
+    #content1 #txt{
+        width: 100%;
+    }
+    #content1 #txt h5{
+        width: 80%;
+        text-align: center;
+        margin-left: 55px;
+    }
+
+  #footer ul {
+        padding: 5px;
+        float: none;
+        width: 100%;
+    }
+
+    #footer .contact {
+        margin-left: 0%;
+    }
 }

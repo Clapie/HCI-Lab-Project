@@ -184,3 +184,31 @@ textarea{
 #footer .contact {
   margin-left: 2.5%;
 }
+
+@media screen and (max-width: 620px){
+  #content h1{
+    font-size: 60px;
+  }
+
+  #content h2{
+    font-size: 20px;
+  }
+
+  input {
+    width: 60%;
+  }
+
+  textarea{
+    width: 60%;
+  }
+
+   #footer ul {
+        padding: 5px;
+        float: none;
+        width: 100%;
+    }
+
+    #footer .contact {
+        margin-left: 0%;
+    }
+}

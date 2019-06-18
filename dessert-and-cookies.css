@@ -179,3 +179,36 @@
     display: inline-block;
     width: 30%;
 }
+
+@media screen and (max-width: 620px) {
+
+    #content{
+      height: 440px;
+    }
+
+    .content1{
+      padding: 0px;
+      height: 450px;
+    }
+
+    .content1 .image{
+        width: 80%;
+        height: 45%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .content1 .txt {
+        width: 80%;
+    }
+
+  #footer ul {
+        padding: 5px;
+        float: none;
+        width: 100%;
+    }
+
+    #footer .contact {
+        margin-left: 0%;
+    }
+}

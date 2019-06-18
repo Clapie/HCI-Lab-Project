@@ -205,3 +205,36 @@
 #footer .contact {
   margin-left: 2.5%;
 }
+
+@media screen and (max-width: 620px) {
+
+  #content h1 {
+    font-size: 100px;
+  }
+  #content h3 {
+    font-size: 25px;
+  }
+
+  #content2 .img{
+    width: 100%;
+    float: none;
+  }
+
+  #content3 h1{
+    font-size: 60px;
+  }
+
+  #content3 h2{
+    font-size: 40px;
+  }
+
+  #footer ul {
+      padding: 5px;
+      float: none;
+      width: 100%;
+  }
+
+  #footer .contact {
+    margin-left: 0%;
+  }
+}
