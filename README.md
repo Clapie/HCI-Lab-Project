@@ -1,9 +1,9 @@
 # HCI-Lab-Project
 
-### Project content :  
+### Project Content :  
 Create AVBucks webpage by using **CSS**, **HTML**, and **Javascript**.
 
-### assets source : 
+### Assets Source : 
 [freepik](https://www.freepik.com/)  
 [starranch](https://starranch.com/recipes/cheesecake-with-cherry-topping/)  
 [teflconnect](https://www.teflconnect.com/the-7-foods-you-miss-when-living-in-europe/)  
